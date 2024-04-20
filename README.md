@@ -1,27 +1,3 @@
- body {
-    background-color: rgb(255, 255, 255);
-    font-family: Arial, sans-serif;
-    text-align: center;
-    }
-    .container {
-        max-width: 600px;
-        margin: 50px auto;
-        padding: 20px;
-        background-color: rgb(18, 161, 82);
-        color: rgb(255, 255, 255);
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    h1 {
-        color: rgb(255, 255, 255)
-    }
-    p {
-        color: rgb(255, 255, 255);
-        line-height: 1.6;
-    }
-</style>
-</head>
-<body>
 <div class="container">
     <h1>Уважаемый партнер!</h1>
     <p>Информируем Вас о том, что договор на "{{Виды работ > printable}}" между "{{Реквизиты вашей компании > printable}}" и "{{Компания > printable}}" подписан со стороны "{{Реквизиты вашей компании > printable}}".</p>
@@ -34,5 +10,3 @@
     <p>Виды работ: {{Виды работ}}</p>
     <p>С уважением,<br>{{Ваше имя}}</p>
 </div>
-</body>
-</html>
